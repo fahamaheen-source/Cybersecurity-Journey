@@ -1,0 +1,238 @@
+CYBERSECURITY FUNDAMENTALS
+
+Q: What is Cybersecurity?
+A: Cybersecurity is the practice of protecting computers, networks, systems, and data from cyber attacks and unauthorized access.
+________________________________________
+Q. Why is Cybersecurity important?
+Answer:
+Cybersecurity is important because it protects sensitive data, prevents cyber attacks, reduces financial losses, and ensures business continuity.
+________________________________________
+Q. What can happen if a company does not have proper cybersecurity?
+Answer:
+The company may experience data breaches, financial losses, service disruptions, and reputation damage.
+________________________________________
+Q. How does cybersecurity help businesses?
+Answer:
+Cybersecurity protects business assets, customer information, and company operations from cyber threats.
+________________________________________
+Q. Why do companies need cybersecurity?
+Answer:
+Companies need cybersecurity to protect sensitive data, prevent cyber attacks, reduce financial losses, and ensure business continuity.
+________________________________________
+Q. What assets do companies protect using cybersecurity?
+Answer:
+Companies protect data, systems, networks, applications, and business reputation.
+________________________________________
+Q. What is business continuity?
+Answer:
+Business continuity means keeping business operations running normally even during security incidents or cyber attacks.
+________________________________________
+Q. Name some common cyber attacks.
+Answer: Phishing, Malware, Ransomware, Password Attacks, DoS, DDoS, MITM, SQL Injection, XSS, and Insider Threats.
+________________________________________Q. What is the difference between DoS and DDoS?
+Answer: DoS uses a single source to attack a target, while DDoS uses multiple compromised systems.
+________________________________________
+Q. What is an Insider Threat?
+Answer: An insider threat is a security risk originating from an organization's employees, contractors, or trusted individuals.
+________________________________________
+Q. What is the CIA Triad?
+Answer:
+The CIA Triad is a cybersecurity model consisting of Confidentiality, Integrity, and Availability used to protect information and systems.
+________________________________________
+Q. What is Confidentiality?
+Answer:
+Confidentiality ensures that information is accessible only to authorized users.
+________________________________________
+Q. What is Integrity?
+Answer:
+Integrity ensures that data remains accurate and is not modified without authorization.
+________________________________________
+Q. What is Availability?
+Answer:
+Availability ensures that systems and data are accessible whenever needed by authorized users.
+________________________________________
+Q. Why is the CIA Triad important?
+Answer:
+The CIA Triad provides the foundation of information security by protecting data confidentiality, integrity, and availability.
+________________________________________
+Q. What is a Threat?
+Answer:
+A threat is anything that has the potential to cause harm to systems, networks, applications, or data.
+________________________________________
+Q. What is a Vulnerability?
+Answer:
+A vulnerability is a weakness that can be exploited by a threat.
+________________________________________
+Q. What is Risk?
+Answer:
+Risk is the possibility of a threat exploiting a vulnerability and causing damage.
+________________________________________
+Q. Give an example of Threat, Vulnerability, and Risk.
+Answer:
+Threat → Hacker
+Vulnerability → Weak Password
+Risk → Unauthorized Access
+________________________________________
+Q. What is the relationship between Threat, Vulnerability, and Risk?
+Answer:
+Risk occurs when a threat exploits a vulnerability and causes harm.
+________________________________________
+Q. Is a weak password a Threat or Vulnerability?
+Answer:
+A weak password is a Vulnerability because it is a weakness that can be exploited.
+________________________________________
+Q. Is malware a Threat or Vulnerability?
+Answer:
+Malware is a Threat because it can cause harm to systems and data.
+________________________________________
+What are Security Controls?
+Security controls are safeguards used to protect systems and data from cyber threats.
+________________________________________
+What are the three types of Security Controls?
+Preventive, Detective, and Corrective.
+________________________________________
+Give examples of Preventive Controls.
+Firewall, Antivirus, MFA, Password Policies.
+________________________________________
+Give examples of Detective Controls.
+SIEM, IDS, Security Logs.
+________________________________________
+Give examples of Corrective Controls.
+Backups, Patch Management, Incident Response.
+________________________________________
+What is SIEM?
+SIEM is a platform that collects and analyzes logs from different systems to detect security threats.
+________________________________________
+Is a Firewall Preventive or Detective?
+Preventive.
+________________________________________
+Is SIEM Preventive or Detective?
+Detective.
+
+
+SOC FUNDAMENTALS INTERVIEW QUESTIONS
+Q1. What is a SOC?
+Answer:
+A SOC (Security Operations Center) is a centralized unit that monitors, detects, investigates, and responds to cybersecurity threats and incidents in real time.
+________________________________________
+Q2. What is the purpose of a SOC?
+Answer:
+The purpose of a SOC is to protect an organization's systems and data, detect threats early, respond to incidents quickly, and maintain continuous security monitoring.
+________________________________________
+Q3. Why do organizations need a SOC?
+Answer:
+Organizations need a SOC to detect cyber attacks, reduce damage, protect sensitive data, maintain business continuity, and improve security visibility.
+________________________________________
+Q4. What does a SOC Analyst do?
+Answer:
+A SOC Analyst monitors security alerts, investigates suspicious activities, analyzes logs, detects threats, responds to incidents, and documents findings.
+________________________________________
+Q5. What are the responsibilities of a SOC Analyst?
+Answer:
+•	Monitoring security events 
+•	Investigating alerts 
+•	Analyzing logs 
+•	Detecting threats 
+•	Responding to incidents 
+•	Escalating serious incidents 
+•	Documentation and reporting 
+________________________________________
+SOC TIERS
+Q6. What is a Tier 1 SOC Analyst?
+Answer:
+A Tier 1 Analyst is an entry-level SOC analyst responsible for monitoring alerts, performing basic investigations, validating alerts, and escalating incidents when necessary.
+________________________________________
+Q7. What is a Tier 2 SOC Analyst?
+Answer:
+A Tier 2 Analyst performs deeper investigations, analyzes multiple data sources, identifies attack types, and handles incident response activities.
+________________________________________
+Q8. What is a Tier 3 SOC Analyst?
+Answer:
+A Tier 3 Analyst is an advanced security professional responsible for threat hunting, malware analysis, detection engineering, and improving SOC security.
+________________________________________
+Q9. Difference between Tier 1, Tier 2, and Tier 3?
+Answer:
+Tier	Main Responsibility
+Tier 1	Monitoring & Alert Validation
+Tier 2	Investigation & Incident Response
+Tier 3	Threat Hunting & Security Improvement
+________________________________________
+Q10. What does a SOC Manager do?
+Answer:
+A SOC Manager supervises SOC operations, manages analysts, ensures incidents are handled properly, and improves SOC performance.
+________________________________________
+SOC WORKFLOW
+Q11. Explain the SOC Workflow.
+Answer:
+The SOC Workflow is:
+Alert → Triage → Investigation → Escalation → Response → Documentation → Post-Incident Review
+________________________________________
+Q12. What is Alert Triage?
+Answer:
+Alert Triage is the process of reviewing an alert, determining its severity, and deciding whether it is a real threat or a false positive.
+________________________________________
+Q13. What is a False Positive?
+Answer:
+A false positive is a security alert that appears malicious but is actually legitimate activity.
+________________________________________
+Q14. What is Incident Response?
+Answer:
+Incident Response is the process of containing, investigating, and recovering from a security incident.
+________________________________________
+Q15. Why is Documentation important in a SOC?
+Answer:
+Documentation helps track incidents, record actions taken, support investigations, and improve future security operations.
+________________________________________
+LOGS & MONITORING
+Q16. Why do SOC Analysts analyze logs?
+Answer:
+SOC Analysts analyze logs to identify suspicious activities, investigate incidents, and detect security threats.
+________________________________________
+Q17. What types of logs do SOC Analysts review?
+Answer:
+•	System Logs 
+•	Security Logs 
+•	Firewall Logs 
+•	Network Logs 
+•	Application Logs 
+________________________________________
+SOC TOOLS
+Q18. What is SIEM?
+Answer:
+SIEM (Security Information and Event Management) is a security solution that collects, analyzes, and correlates logs from multiple sources to detect threats.
+________________________________________
+Q19. Name some SIEM tools.
+Answer:
+•	Splunk 
+•	Wazuh 
+•	Microsoft Sentinel 
+•	IBM QRadar 
+________________________________________
+Q20. What is EDR?
+Answer:
+EDR (Endpoint Detection and Response) is a security solution that monitors endpoint devices and helps detect and respond to threats.
+________________________________________
+VERY COMMON FRESHER QUESTIONS
+Q21. Why do you want to become a SOC Analyst?
+Answer:
+I enjoy cybersecurity and problem-solving. A SOC Analyst role allows me to monitor threats, investigate incidents, and help protect organizations from cyber attacks while continuously learning new security skills.
+________________________________________
+Q22. What skills should a SOC Analyst have?
+Answer:
+•	Networking Fundamentals 
+•	Windows & Linux Knowledge 
+•	Log Analysis 
+•	SIEM Tools 
+•	Incident Response 
+•	Threat Detection 
+•	Communication Skills 
+________________________________________
+Q23. What is the most important tool for a SOC Analyst?
+Answer:
+SIEM is one of the most important tools because it collects logs, detects suspicious activities, and generates security alerts.
+________________________________________
+Q24. What is the goal of a SOC?
+Answer:
+The goal of a SOC is to continuously monitor, detect, investigate, and respond to cyber threats while protecting organizational assets.
+
+

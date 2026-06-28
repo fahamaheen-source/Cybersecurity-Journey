@@ -1,0 +1,343 @@
+SOC FUNDAMENTALS
+SOC (Security Operations Center)
+A SOC (Security Operations Center) is a centralized unit consisting of people, processes, and security tools responsible for monitoring, detecting, analyzing, and responding to cybersecurity threats in real time.
+It continuously protects an organization's systems from cyber attacks.
+________________________________________
+SOC PURPOSE
+The main purpose of a SOC is to:
+•	Protect company systems and data from cyber threats.
+•	Detect security incidents as early as possible.
+•	Respond quickly to attacks.
+•	Reduce damage caused by cyber incidents.
+•	Maintain continuous 24×7 security monitoring.
+SOC = Detect + Respond + Protect
+________________________________________
+WHY ORGANIZATIONS NEED SOC
+Organizations need SOC because:
+•	Cyber attacks happen daily.
+•	Attacks are becoming fast and automated.
+•	Sensitive data is constantly targeted.
+•	Early detection reduces damage.
+•	Compliance requirements (ISO, GDPR, etc.).
+•	Business continuity must be maintained.
+•	Data breaches can cause financial loss and reputation damage.
+________________________________________
+PROBLEMS A SOC SOLVES
+1. Threat Detection Problem
+SOC finds hidden attacks such as:
+•	Hacker activity
+•	Malware infections
+•	Unauthorized login attempts
+•	Phishing attacks
+•	Suspicious network behavior
+________________________________________
+2. Slow Response Problem
+SOC teams quickly:
+•	Detect attacks
+•	Stop attacks
+•	Reduce damage
+•	Investigate incidents
+________________________________________
+3. Lack of Visibility
+SOC provides visibility into:
+•	Who accessed systems
+•	What systems were affected
+•	Where attacks originated
+•	What happened during the attack
+________________________________________
+SOC RESPONSIBILITIES
+1. Monitoring
+Monitor:
+•	Networks
+•	Servers
+•	Endpoints
+•	Cloud Systems
+Track logs and security events using security tools such as SIEM.
+________________________________________
+2. Detection
+Identify:
+•	Malware
+•	Phishing Attempts
+•	Unauthorized Login Attempts
+•	Data Exfiltration
+•	Suspicious Activity
+________________________________________
+3. Analysis
+•	Investigate alerts
+•	Determine if alerts are real threats or false positives
+•	Perform root cause analysis
+________________________________________
+4. Incident Response
+•	Contain attacks
+•	Isolate affected systems
+•	Block malicious users or IPs
+•	Remove malware
+________________________________________
+5. Reporting
+•	Document incidents
+•	Create security reports
+•	Report findings to management
+________________________________________
+6. Prevention Support
+•	Suggest security improvements
+•	Reduce future attack risks
+•	Improve overall security posture
+________________________________________
+SOC ANALYST ROLE
+A SOC Analyst is a cybersecurity professional responsible for monitoring, detecting, investigating, and responding to security incidents.
+________________________________________
+MAIN RESPONSIBILITIES OF A SOC ANALYST
+Monitor Alerts
+•	Review SIEM alerts
+•	Monitor dashboards
+•	Observe security events
+________________________________________
+Investigate Activity
+•	Check if alerts are real or false positives
+•	Analyze user activity
+•	Review login events
+________________________________________
+Analyze Logs
+•	System Logs
+•	Firewall Logs
+•	Network Logs
+•	Security Logs
+Identify attack patterns and suspicious activity.
+________________________________________
+Detect Threats
+Identify:
+•	Malware
+•	Phishing
+•	Brute Force Attacks
+•	Unauthorized Access
+________________________________________
+Escalate Incidents
+Serious incidents are escalated to:
+•	Tier 2 Analysts
+•	Tier 3 Analysts
+•	Incident Response Teams
+________________________________________
+Documentation
+Maintain incident records:
+•	What happened
+•	When it happened
+•	Impact
+•	Actions taken
+________________________________________
+DAY IN THE LIFE OF A SOC ANALYST
+Beginning of Shift
+•	Review security alerts
+•	Check dashboards
+•	Prioritize incidents
+________________________________________
+Investigation Work
+•	Analyze logs
+•	Investigate alerts
+•	Verify threats
+________________________________________
+Incident Handling
+•	Respond to attacks
+•	Coordinate with IT teams
+•	Escalate incidents when required
+________________________________________
+Reporting
+•	Update incident records
+•	Create reports
+•	Document actions taken
+________________________________________
+End of Shift
+•	Review pending incidents
+•	Hand over cases to next shift
+•	Complete final reporting
+________________________________________
+SOC TIERS
+A SOC is divided into three levels based on expertise and responsibilities.
+________________________________________
+TIER 1 SOC ANALYST (L1)
+Entry-level analyst responsible for first-line monitoring.
+Responsibilities
+•	Monitor SIEM alerts
+•	Validate alerts
+•	Identify false positives
+•	Perform basic investigations
+•	Create incident tickets
+•	Escalate serious threats to Tier 2
+Focus
+Monitoring and Alert Validation
+________________________________________
+TIER 2 SOC ANALYST (L2)
+Intermediate-level analyst responsible for deeper investigation.
+Responsibilities
+•	Investigate incidents in detail
+•	Analyze multiple data sources
+•	Determine attack type
+•	Perform incident response actions
+•	Coordinate with IT and Security teams
+Focus
+Investigation and Incident Response
+________________________________________
+TIER 3 SOC ANALYST (L3)
+Advanced security analyst responsible for threat hunting and security improvement.
+Responsibilities
+•	Threat Hunting
+•	Malware Analysis
+•	Detection Engineering
+•	Create SIEM Detection Rules
+•	Improve SOC Security Posture
+Focus
+Threat Hunting and Advanced Security Operations
+________________________________________
+SOC MANAGER
+A SOC Manager supervises the entire SOC team and SOC operations.
+Responsibilities
+•	Manage Tier 1, Tier 2, and Tier 3 teams
+•	Monitor SOC performance
+•	Create security procedures
+•	Coordinate with management
+•	Ensure incidents are handled properly
+•	Improve SOC efficiency
+Goal
+Ensure effective threat detection and incident response.
+________________________________________
+TIER COMPARISON
+Tier 1 (L1) → Monitoring & Alert Validation
+Tier 2 (L2) → Investigation & Incident Response
+Tier 3 (L3) → Threat Hunting & Detection Engineering
+SOC Manager → Team Leadership & Operations Management
+________________________________________
+SOC WORKFLOW
+Alert
+↓
+Triage
+↓
+Investigation
+↓
+Escalation
+↓
+Response
+↓
+Documentation
+↓
+Post-Incident Review
+________________________________________
+1. Alert Generation
+Security tools generate alerts.
+Examples:
+•	Failed Login Attempts
+•	Malware Detection
+•	Suspicious IP Activity
+Tools:
+•	SIEM
+•	EDR
+•	Firewall
+•	Antivirus
+________________________________________
+2. Alert Triage
+Determine:
+•	Alert Severity
+•	Real Threat or False Positive
+Handled by:
+Tier 1 Analyst
+________________________________________
+3. Initial Investigation
+Gather information:
+•	IP Addresses
+•	User Accounts
+•	Device Information
+•	Time of Activity
+Handled by:
+Tier 1 Analyst
+________________________________________
+4. Deep Investigation
+Analyze:
+•	Endpoint Logs
+•	Network Logs
+•	Firewall Logs
+Determine:
+•	Attack Type
+•	Attack Scope
+•	Root Cause
+Handled by:
+Tier 2 Analyst
+________________________________________
+5. Incident Confirmation
+Determine whether:
+•	True Incident
+•	False Positive
+Handled by:
+Tier 2 Analyst
+________________________________________
+6. Incident Response
+Actions include:
+•	Block IP Address
+•	Disable User Account
+•	Isolate System
+•	Remove Malware
+Handled by:
+Tier 2 Analyst or Incident Response Team
+________________________________________
+7. Escalation
+Complex incidents are escalated to:
+•	Tier 2
+•	Tier 3
+•	Security Engineers
+________________________________________
+8. Documentation & Reporting
+Document:
+•	Incident Details
+•	Timeline
+•	Impact
+•	Actions Taken
+Handled by:
+Tier 1 and Tier 2 Analysts
+________________________________________
+9. Post-Incident Review
+Analyze:
+•	Root Cause
+•	Lessons Learned
+•	Security Improvements
+Handled by:
+Tier 3 Analysts and Security Engineers
+________________________________________
+COMMON SOC TOOLS
+SIEM
+Security Information and Event Management
+Examples:
+•	Splunk
+•	Wazuh
+•	Microsoft Sentinel
+•	QRadar
+Purpose:
+•	Collect logs
+•	Analyze events
+•	Generate alerts
+________________________________________
+EDR
+Endpoint Detection and Response
+Examples:
+•	CrowdStrike
+•	Microsoft Defender
+•	SentinelOne
+Purpose:
+•	Monitor endpoints
+•	Detect malware
+•	Support incident response
+________________________________________
+IDS / IPS
+IDS = Intrusion Detection System
+IPS = Intrusion Prevention System
+Purpose:
+•	Detect network attacks
+•	Block malicious traffic
+________________________________________
+THREAT INTELLIGENCE PLATFORMS
+Provide information about:
+•	Malicious IPs
+•	Malicious Domains
+•	Malware Indicators
+•	Known Threat Actors
+Used for:
+•	Threat Hunting
+•	IOC Analysis
+•	Threat Investigation
+

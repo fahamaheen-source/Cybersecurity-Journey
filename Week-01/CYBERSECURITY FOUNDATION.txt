@@ -1,0 +1,218 @@
+WHAT IS CYBERSECURITY?
+Notes
+•	Cybersecurity protects computers, networks, systems, and data from cyber attacks.
+•	It prevents unauthorized access, theft, and damage.
+•	Common attacks include phishing, malware, and ransomware.
+Why Cybersecurity Matters
+•	Protects sensitive information.
+•	Prevents cyber attacks.
+•	Reduces financial losses.
+•	Maintains customer trust.
+•	Protects company reputation.
+•	Ensures business continuity.
+Consequences of Poor Security
+•	Data breaches
+•	Financial loss
+•	Service disruption
+•	Legal issues
+•	Reputation damage
+Key Point
+Cybersecurity is important because it protects an organization's data, systems, employees, and customers from cyber threats.
+
+Why Companies Need Security
+•	Protect customer data.
+•	Protect employee information.
+•	Prevent cyber attacks.
+•	Reduce financial losses.
+•	Maintain customer trust.
+•	Meet compliance and legal requirements.
+•	Ensure business continuity.
+What Companies Protect
+•	Data
+•	Systems
+•	Networks
+•	Applications
+•	Business reputation
+Key Point
+Companies need security to protect their assets, customers, employees, and business operations from cyber threats.
+
+Common Cyber Attacks
+1. Phishing
+•	A social engineering attack that uses fake emails, messages, or websites.
+•	Goal: Steal usernames, passwords, bank details, or sensitive information.
+Example: Fake bank email asking you to log in.
+________________________________________
+2. Malware
+•	Malicious software designed to damage systems or steal data.
+Types:
+•	Virus
+•	Worm
+•	Trojan
+Example: Downloading infected software.
+________________________________________
+3. Ransomware
+•	A type of malware that encrypts files and demands payment.
+•	Can stop business operations.
+Example: Company files become inaccessible until ransom is paid.
+________________________________________
+4. Password Attack
+•	Attempts to steal or guess passwords.
+Examples:
+•	Brute Force Attack
+•	Dictionary Attack
+Goal: Gain unauthorized access to accounts.
+________________________________________
+5. Denial of Service (DoS)
+•	Attacker floods a system with traffic.
+•	Makes services unavailable to legitimate users.
+Example: Website becomes inaccessible.
+________________________________________
+6. Distributed Denial of Service (DDoS)
+•	Similar to DoS but uses many infected devices.
+•	Much more powerful than a normal DoS attack.
+Example: Thousands of compromised computers attacking one website.
+________________________________________
+7. Man-in-the-Middle (MITM)
+•	Attacker secretly intercepts communication between two parties.
+Example: Stealing data on an insecure public Wi-Fi network.
+________________________________________
+8. SQL Injection
+•	Attacker inserts malicious SQL commands into an application.
+•	Used to access or modify database information.
+Example: Stealing customer records from a website database.
+________________________________________
+9. Cross-Site Scripting (XSS)
+•	Attacker injects malicious scripts into a website.
+•	Affects website users.
+Example: Stealing user session cookies.
+________________________________________
+10. Insider Threat
+•	Threat originating from within the organization.
+•	Can be intentional or accidental.
+Example: Employee leaking company data.
+CIA Triad
+The CIA Triad is the core model of information security consisting of Confidentiality, Integrity, and Availability.
+________________________________________
+1. Confidentiality
+Definition:
+Ensures that information is accessible only to authorized users.
+Examples:
+•	Password-protected accounts
+•	Encrypted data
+•	MFA
+Goal:
+Prevent unauthorized access.
+________________________________________
+2. Integrity
+Definition:
+Ensures that data remains accurate, complete, and unmodified.
+Examples:
+•	Student marks database
+•	Financial records
+Goal:
+Prevent unauthorized modification of data.
+________________________________________
+3. Availability
+Definition:
+Ensures that systems and data are available whenever needed.
+Examples:
+•	Banking websites
+•	Hospital systems
+Goal:
+Ensure uninterrupted access to services.
+________________________________________
+Why CIA Triad is Important
+•	Protects sensitive information.
+•	Maintains data accuracy.
+•	Ensures systems remain accessible.
+•	Forms the foundation of cybersecurity.
+________________________________________
+Key Point
+Cybersecurity aims to maintain:
+•	Confidentiality
+•	Integrity
+•	Availability
+of information and systems.
+
+THREATS, VULNERABILITIES & RISKS
+Threat
+Definition:
+A threat is anything that has the potential to cause harm to systems, networks, applications, or data.
+Examples:
+•	Hacker
+•	Malware
+•	Ransomware
+•	Phishing
+•	Insider Threat
+________________________________________
+Vulnerability
+Definition:
+A vulnerability is a weakness that can be exploited by a threat.
+Examples:
+•	Weak Password
+•	Unpatched System
+•	Outdated Software
+•	Misconfigured Firewall
+________________________________________
+Risk
+Definition:
+Risk is the possibility of a threat exploiting a vulnerability and causing damage.
+Examples:
+•	Data Breach
+•	Financial Loss
+•	Service Disruption
+•	Unauthorized Access
+________________________________________
+Relationship
+Threat + Vulnerability = Risk
+________________________________________
+Example
+Threat → Hacker
+Vulnerability → Weak Password
+Risk → Account Compromise
+________________________________________
+Why SOC Analysts Care
+•	Identify threats
+•	Detect vulnerabilities
+•	Reduce risks
+•	Protect organizational assets
+
+TYPES OF SECURITY CONTROLS
+Security Controls
+Security controls are safeguards used to protect systems, networks, applications, and data from cyber threats.
+________________________________________
+Preventive Controls
+Purpose: Prevent attacks before they occur.
+Examples:
+•	Firewall
+•	Antivirus
+•	MFA
+•	Strong Passwords
+•	Access Control
+________________________________________
+Detective Controls
+Purpose: Detect attacks and suspicious activities.
+Examples:
+•	SIEM
+•	IDS
+•	Security Logs
+•	Monitoring Tools
+________________________________________
+Corrective Controls
+Purpose: Recover from incidents and reduce damage.
+Examples:
+•	Backups
+•	Patch Management
+•	Incident Response
+•	Disaster Recovery
+________________________________________
+Important Security Tools
+Firewall
+Blocks unauthorized network traffic.
+Antivirus
+Detects and removes malware.
+MFA
+Requires multiple authentication factors.
+SIEM
+Collects and analyzes security logs to detect threats.
+________________________________________
