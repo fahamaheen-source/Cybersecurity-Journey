@@ -1,0 +1,978 @@
+NETWORKING FUNDAMENTALS PART 1
+📅 WEEK 1 — DAY 2
+________________________________________
+NETWORKING INTRODUCTION
+What is Networking?
+Networking is the process of connecting two or more devices so they can communicate and share data, resources, and services.
+Examples of Network Devices
+•	Computer
+•	Laptop
+•	Mobile Phone
+•	Server
+•	Printer
+•	Router
+________________________________________
+Why Networking Matters in Cybersecurity
+Networking is the foundation of cybersecurity because almost every cyber attack occurs through a network.
+A SOC Analyst uses networking knowledge to:
+•	Monitor network traffic
+•	Detect suspicious activities
+•	Investigate security alerts
+•	Identify attackers
+•	Protect organizational systems
+Without networking knowledge, a SOC Analyst cannot effectively investigate incidents.
+________________________________________
+How Devices Communicate
+Devices communicate by sending and receiving data packets over a network.
+Each device has a unique IP Address, which helps identify it on the network.
+Basic Communication Flow
+Sender Device
+      ↓
+ Router / Switch
+      ↓
+   Internet
+      ↓
+Receiver Device
+The receiver processes the request and sends a response back to the sender.
+________________________________________
+Data Packets
+Large amounts of data are divided into small units called packets.
+Advantages:
+•	Faster transmission
+•	Better reliability
+•	Easier error recovery
+•	Efficient use of network resources
+________________________________________
+Client-Server Model
+Client
+A client is a device or application that requests a service.
+Examples:
+•	Google Chrome
+•	Mozilla Firefox
+•	Mobile Apps
+•	Outlook
+________________________________________
+Server
+A server is a computer that provides services or resources to clients.
+Examples:
+•	Web Server
+•	Email Server
+•	Database Server
+•	File Server
+________________________________________
+Client-Server Communication
+Client
+   │
+   │ Request
+   ▼
+Server
+   │
+   │ Response
+   ▼
+Client
+Example:
+Chrome Browser → Google Server → Google Homepage
+________________________________________
+Real-World Network Examples
+Home Network
+Laptop
+   ↓
+Wi-Fi Router
+   ↓
+Internet
+________________________________________
+Watching YouTube
+Mobile
+   ↓
+Router
+   ↓
+Internet
+   ↓
+YouTube Server
+   ↓
+Video Returned
+________________________________________
+Online Banking
+Laptop
+   ↓
+Internet
+   ↓
+Bank Server
+   ↓
+Account Information
+________________________________________
+Company Network
+Employee PC
+      ↓
+Switch
+      ↓
+Firewall
+      ↓
+Company Server
+      ↓
+Internet
+________________________________________
+Key Terms
+Term	Meaning
+Network	Connection between devices
+Packet	Small unit of transmitted data
+Client	Requests a service
+Server	Provides a service
+IP Address	Unique address of a device
+Internet	Largest WAN (Wide Area Network)
+
+________________________________________
+OSI MODEL
+Definition
+OSI (Open Systems Interconnection) Model is a 7-layer reference model that explains how data is transmitted from one device to another over a network.
+Purpose of the OSI Model
+•	Standardizes network communication
+•	Helps different devices communicate
+•	Simplifies troubleshooting
+•	Helps understand where network problems occur
+•	Used for learning, troubleshooting, and cybersecurity
+________________________________________
+OSI MODEL LAYERS
+Layer	Name	Purpose	Example	Device/Protocol
+7	Application	Provides network services to applications	Web browsing, Email	HTTP, HTTPS, FTP, DNS
+6	Presentation	Formats, encrypts, compresses data	HTTPS encryption	SSL/TLS, JPEG, PNG
+5	Session	Establishes, manages, and terminates sessions	Video calls	NetBIOS, RPC
+4	Transport	Reliable data delivery	File download	TCP, UDP
+3	Network	Routes packets using IP addresses	Internet routing	IP, Router
+2	Data Link	Transfers data within a LAN using MAC addresses	Local communication	Ethernet, Switch
+1	Physical	Transmits raw bits over physical media	Network cables	Cable, Fiber, Wi-Fi, NIC
+________________________________________
+Layer 1 – Physical Layer
+Purpose
+Transmits raw bits through physical media.
+Examples
+•	Ethernet Cable
+•	Fiber Optic Cable
+•	Wi-Fi Signals
+•	Hub
+•	NIC (Network Interface Card)
+________________________________________
+Layer 2 – Data Link Layer
+Purpose
+Transfers data between devices on the same Local Area Network (LAN).
+Uses
+•	MAC Address
+•	Frames
+Device
+•	Switch
+Protocol
+•	Ethernet
+________________________________________
+Layer 3 – Network Layer
+Purpose
+Routes packets between different networks.
+Uses
+•	IP Address
+•	Routing
+Device
+•	Router
+Protocol
+•	IP
+________________________________________
+Layer 4 – Transport Layer
+Purpose
+Provides end-to-end communication and ensures reliable data delivery.
+Protocols
+TCP
+•	Reliable
+•	Connection-oriented
+•	Error checking
+•	Retransmits lost packets
+UDP
+•	Faster
+•	Connectionless
+•	No delivery guarantee
+•	Used for streaming and gaming
+________________________________________
+Layer 5 – Session Layer
+Purpose
+Creates, maintains, and terminates communication sessions.
+Example
+•	Zoom Meeting
+•	Microsoft Teams Call
+________________________________________
+Layer 6 – Presentation Layer
+Purpose
+Formats and secures data before transmission.
+Functions
+•	Encryption
+•	Decryption
+•	Compression
+•	Decompression
+Examples
+•	SSL/TLS
+•	JPEG
+•	PNG
+________________________________________
+Layer 7 – Application Layer
+Purpose
+Provides network services directly to user applications.
+Examples
+•	Google Chrome
+•	Gmail
+•	Outlook
+•	FTP Client
+Protocols
+•	HTTP
+•	HTTPS
+•	FTP
+•	SMTP
+•	DNS
+________________________________________
+Data Flow Through the OSI Model
+Sender
+Application
+↓
+Presentation
+↓
+Session
+↓
+Transport
+↓
+Network
+↓
+Data Link
+↓
+Physical
+↓
+Network
+↓
+Physical
+↑
+Data Link
+↑
+Network
+↑
+Transport
+↑
+Session
+↑
+Presentation
+↑
+Application
+Receiver
+________________________________________
+Devices Used in the OSI Model
+Device	Layer
+Hub	Layer 1
+Switch	Layer 2
+Router	Layer 3
+________________________________________
+Important Protocols
+Protocol	Layer
+HTTP	7
+HTTPS	7
+FTP	7
+DNS	7
+SSL/TLS	6
+TCP	4
+UDP	4
+IP	3
+Ethernet	2
+________________________________________
+Mnemonic (Layer 7 → Layer 1)
+All People Seem To Need Data Processing
+•	A – Application
+•	P – Presentation
+•	S – Session
+•	T – Transport
+•	N – Network
+•	D – Data Link
+•	P – Physical
+________________________________________
+Mnemonic (Layer 1 → Layer 7)
+Please Do Not Throw Sausage Pizza Away
+•	P – Physical
+•	D – Data Link
+•	N – Network
+•	T – Transport
+•	S – Session
+•	P – Presentation
+•	A – Application
+________________________________________
+Why SOC Analysts Must Know the OSI Model
+SOC Analysts use the OSI Model to:
+•	Analyze network traffic
+•	Investigate alerts
+•	Troubleshoot network issues
+•	Identify the layer where an attack occurs
+•	Understand protocols like HTTP, DNS, TCP, and IP
+________________________________________
+TCP/IP MODEL
+Definition
+TCP/IP (Transmission Control Protocol/Internet Protocol) is a 4-layer networking model used for communication over the Internet.
+It is the practical networking model used by almost all modern computer networks.
+________________________________________
+Why is TCP/IP Important?
+•	Used by the Internet
+•	Enables communication between devices
+•	Provides reliable data transmission
+•	Helps route data across different networks
+•	Foundation of modern networking
+________________________________________
+TCP/IP MODEL LAYERS
+Layer	Purpose	Examples
+Application	Provides network services to applications	HTTP, HTTPS, FTP, DNS, SMTP
+Transport	Ensures end-to-end communication	TCP, UDP
+Internet	Routes data using IP addresses	IP, Router
+Network Access	Sends data through the physical network	Ethernet, Wi-Fi, MAC Address
+________________________________________
+Layer 4 – Application Layer
+Purpose
+Provides network services to user applications.
+Common Protocols
+•	HTTP
+•	HTTPS
+•	DNS
+•	FTP
+•	SMTP
+Examples
+•	Google Chrome
+•	Gmail
+•	Outlook
+•	WhatsApp
+________________________________________
+Layer 3 – Transport Layer
+Purpose
+Provides end-to-end communication and ensures data reaches the correct application.
+Protocols
+TCP
+•	Reliable
+•	Connection-oriented
+•	Error checking
+•	Retransmits lost packets
+UDP
+•	Faster
+•	Connectionless
+•	No delivery guarantee
+________________________________________
+Layer 2 – Internet Layer
+Purpose
+Routes data between different networks.
+Uses
+•	IP Address
+•	Routing
+Device
+•	Router
+Protocol
+•	IP (Internet Protocol)
+________________________________________
+Layer 1 – Network Access Layer
+Purpose
+Transmits data over the physical network.
+Examples
+•	Ethernet
+•	Wi-Fi
+•	MAC Address
+•	Network Interface Card (NIC)
+•	Network Cable
+________________________________________
+How Data Moves Through the TCP/IP Model
+Application Layer
+        ↓
+Transport Layer
+        ↓
+Internet Layer
+        ↓
+Network Access Layer
+        ↓
+Internet
+        ↓
+Destination Device
+The receiving device processes the data in reverse order.
+________________________________________
+OSI vs TCP/IP Comparison
+Feature	OSI Model	TCP/IP Model
+Number of Layers	7	4
+Type	Reference Model	Practical Model
+Purpose	Learning & Troubleshooting	Real Internet Communication
+Usage	Mainly Educational	Used Worldwide
+Complexity	More Detailed	Simpler
+________________________________________
+OSI Layers Mapped to TCP/IP
+OSI Layer	TCP/IP Layer
+Application	Application
+Presentation	Application
+Session	Application
+Transport	Transport
+Network	Internet
+Data Link	Network Access
+Physical	Network Access
+________________________________________
+Why Should a SOC Analyst Learn TCP/IP?
+A SOC Analyst uses TCP/IP knowledge to:
+•	Analyze network traffic
+•	Investigate TCP/UDP connections
+•	Understand IP communication
+•	Detect suspicious network activity
+•	Analyze packet captures
+•	Investigate security alerts
+________________________________________
+
+
+
+IP ADDRESSING
+Definition
+An IP (Internet Protocol) Address is a unique numerical address assigned to every device connected to a network. It allows devices to identify and communicate with each other.
+Example:
+•	192.168.1.10
+•	10.0.0.5
+•	8.8.8.8
+________________________________________
+Why IP Addresses Matter
+IP addresses are important because they:
+•	Identify devices on a network.
+•	Enable communication between devices.
+•	Help routers deliver data to the correct destination.
+•	Allow users to access websites and online services.
+Without IP addresses, devices cannot communicate.
+________________________________________
+IPv4 Basics
+IPv4 (Internet Protocol Version 4) is the most widely used IP addressing system.
+Features
+•	32-bit address
+•	Four numbers separated by dots
+•	Each number ranges from 0 to 255
+Examples
+•	192.168.1.10
+•	10.0.0.1
+•	172.16.5.20
+•	8.8.8.8
+________________________________________
+Public IP Address
+Definition
+A Public IP Address is an IP address that is accessible over the Internet.
+It is assigned by an Internet Service Provider (ISP).
+Characteristics
+•	Accessible from the Internet
+•	Globally unique
+•	Used for Internet communication
+Example
+Your Laptop
+      │
+Private IP
+      │
+Router
+      │
+Public IP
+      │
+Internet
+Example Public IPs:
+•	8.8.8.8
+•	1.1.1.1
+________________________________________
+Private IP Address
+Definition
+A Private IP Address is used within a local network (LAN). It cannot be accessed directly from the Internet.
+Private IPs are assigned by a router.
+Characteristics
+•	Used inside homes and offices
+•	Not directly accessible from the Internet
+•	Can be reused in different networks
+________________________________________
+Private IP Ranges (Must Memorize)
+Class	Private IP Range
+Class A	10.0.0.0 – 10.255.255.255
+Class B	172.16.0.0 – 172.31.255.255
+Class C	192.168.0.0 – 192.168.255.255
+________________________________________
+Public IP vs Private IP
+Public IP	Private IP
+Internet Accessible	Local Network Only
+Assigned by ISP	Assigned by Router
+Globally Unique	Can Be Reused
+Used for Internet Communication	Used Within Home/Office Networks
+________________________________________
+Loopback Address
+Definition
+The Loopback Address is 127.0.0.1.
+It is used to test the local computer's network interface.
+Traffic sent to the loopback address never leaves the computer.
+________________________________________
+Localhost
+Definition
+Localhost is the hostname that refers to 127.0.0.1.
+Developers and administrators use localhost to test applications running on the same computer.
+Example
+http://localhost
+or
+http://127.0.0.1
+Both refer to the same local machine.
+________________________________________
+How Devices Identify Each Other
+Each device has a unique IP address.
+When one device sends data:
+•	The Source IP identifies the sender.
+•	The Destination IP identifies the receiver.
+Routers use these IP addresses to deliver packets to the correct destination.
+________________________________________
+Communication Example
+Laptop
+IP: 192.168.1.10
+        │
+        ▼
+Router
+        │
+        ▼
+Internet
+        │
+        ▼
+Google Server
+IP: 142.xxx.xxx.xxx
+________________________________________
+Why Should a SOC Analyst Learn IP Addressing?
+A SOC Analyst uses IP addresses to:
+•	Investigate suspicious logins.
+•	Analyze firewall logs.
+•	Monitor network traffic.
+•	Detect malicious IP addresses.
+•	Investigate SIEM alerts.
+•	Trace attacker communication.
+________________________________________
+Key Points to Remember
+✅ IP Address = Unique address of a device.
+✅ IPv4 = 32-bit address written in four octets.
+✅ Public IP = Accessible over the Internet.
+✅ Private IP = Used inside local networks.
+✅ Private IP Ranges:
+•	10.0.0.0/8
+•	172.16.0.0 – 172.31.255.255
+•	192.168.0.0/16
+✅ Loopback Address = 127.0.0.1
+✅ Localhost = 127.0.0.1
+✅ Source IP = Sender's address.
+✅ Destination IP = Receiver's address.
+________________________________________
+DNS (Domain Name System)
+Definition
+DNS (Domain Name System) is a system that translates domain names into IP addresses, allowing users to access websites using easy-to-remember names instead of numerical IP addresses.
+Example
+google.com
+      ↓
+142.250.xxx.xxx
+________________________________________
+Why DNS Exists
+Humans remember domain names, while computers communicate using IP addresses.
+DNS acts as a translator between humans and computers.
+Without DNS, users would have to remember IP addresses for every website.
+________________________________________
+Why DNS is Important
+•	Converts domain names into IP addresses.
+•	Makes Internet browsing easy.
+•	Allows users to access websites using names instead of numbers.
+•	Reduces the need to memorize IP addresses.
+________________________________________
+DNS Resolution Process
+When a user enters a website name:
+google.com
+The following steps occur:
+User Types:
+
+google.com
+        │
+        ▼
+Browser Sends DNS Request
+        │
+        ▼
+DNS Resolver
+        │
+        ▼
+DNS Server
+        │
+Returns IP Address
+        ▼
+Browser Connects to Website
+        ▼
+Website Opens
+________________________________________
+Simple DNS Resolution Steps
+1.	User enters google.com in the browser.
+2.	Browser sends a DNS query.
+3.	DNS Resolver searches for the IP address.
+4.	DNS Server returns the IP address.
+5.	Browser connects to the website using the IP address.
+6.	The website loads.
+________________________________________
+DNS Records
+DNS stores different types of records.
+Each record has a specific purpose.
+________________________________________
+A Record (Address Record)
+Purpose
+Maps a domain name to an IPv4 address.
+Example
+google.com
+      ↓
+142.250.xxx.xxx
+Used for:
+•	Opening websites
+•	Finding a web server's IP address
+________________________________________
+MX Record (Mail Exchange Record)
+Purpose
+Specifies the mail server responsible for receiving emails for a domain.
+Example
+user@gmail.com
+        │
+        ▼
+Gmail Mail Server
+Used for:
+•	Sending emails
+•	Receiving emails
+________________________________________
+Common DNS Components
+Component	Purpose
+Domain Name	Human-readable website name (google.com)
+IP Address	Numerical address of a device
+DNS Resolver	Receives and processes DNS queries
+DNS Server	Returns the correct IP address
+________________________________________
+Example of DNS
+User Types:
+
+www.google.com
+
+        │
+        ▼
+
+DNS Converts
+
+        │
+        ▼
+
+142.250.xxx.xxx
+
+        │
+        ▼
+
+Browser Connects
+
+        │
+        ▼
+
+Google Website Opens
+________________________________________
+Why Should a SOC Analyst Learn DNS?
+SOC Analysts use DNS knowledge to:
+•	Investigate suspicious domain names.
+•	Detect phishing websites.
+•	Analyze DNS logs.
+•	Identify malware communication.
+•	Detect DNS tunneling attacks.
+•	Investigate Command-and-Control (C2) traffic.
+________________________________________
+Key Points to Remember
+✅ DNS = Domain Name System
+✅ DNS translates Domain Name → IP Address
+✅ Humans use domain names
+✅ Computers use IP addresses
+✅ DNS makes Internet browsing easier.
+✅ A Record → Domain Name → IPv4 Address
+✅ MX Record → Mail Server Information
+✅ DNS is frequently analyzed in SOC investigations.
+________________________________________
+Quick Memory Trick
+DNS = Internet's Phonebook
+Just like you search a contact name to find a phone number:
+•	Contact Name → Domain Name
+•	Phone Number → IP Address
+DNS performs the same function for the Internet.
+________________________________________
+DHCP (Dynamic Host Configuration Protocol)
+Definition
+DHCP (Dynamic Host Configuration Protocol) is a network protocol that automatically assigns IP addresses and other network settings to devices when they join a network.
+It eliminates the need to manually configure network settings for every device.
+________________________________________
+Why is DHCP Needed?
+Without DHCP:
+•	Every device must be configured manually.
+•	IP address conflicts can occur.
+•	Network management becomes difficult.
+•	More time is required to configure devices.
+With DHCP:
+•	IP addresses are assigned automatically.
+•	Configuration is faster and easier.
+•	Reduces human errors.
+•	Prevents duplicate IP addresses.
+________________________________________
+What Does DHCP Assign?
+A DHCP Server automatically provides:
+•	IP Address
+•	Subnet Mask
+•	Default Gateway
+•	DNS Server
+These settings allow a device to communicate on the network.
+________________________________________
+How Devices Receive an IP Address
+When a new device connects to a network:
+1.	It searches for a DHCP Server.
+2.	The DHCP Server offers an available IP address.
+3.	The device accepts the offered IP.
+4.	The DHCP Server confirms the assignment.
+The device is now ready to communicate.
+________________________________________
+DHCP Process (DORA)
+The DHCP process follows four steps known as DORA.
+D – Discover
+The device broadcasts a request to find a DHCP Server.
+Purpose:
+Search for an available DHCP Server.
+________________________________________
+O – Offer
+The DHCP Server offers an available IP address.
+Purpose:
+Provide an IP address to the device.
+________________________________________
+R – Request
+The device requests the offered IP address.
+Purpose:
+Accept the IP address offered by the DHCP Server.
+________________________________________
+A – Acknowledge
+The DHCP Server confirms the IP address assignment.
+Purpose:
+Complete the IP assignment process.
+________________________________________
+DHCP DORA Flow
+Device Joins Network
+        │
+        ▼
+Discover
+        │
+        ▼
+Offer
+        │
+        ▼
+Request
+        │
+        ▼
+Acknowledge
+        │
+        ▼
+IP Address Assigned
+________________________________________
+Example
+Laptop Connects to Wi-Fi
+
+        │
+        ▼
+
+DHCP Server Assigns:
+
+IP Address
+Subnet Mask
+Default Gateway
+DNS Server
+
+        │
+        ▼
+
+Laptop Can Access Internet
+________________________________________
+Advantages of DHCP
+•	Automatic IP address assignment.
+•	Simplifies network management.
+•	Saves time.
+•	Reduces configuration errors.
+•	Prevents IP address conflicts.
+•	Supports large networks efficiently.
+________________________________________
+Why Should a SOC Analyst Learn DHCP?
+SOC Analysts use DHCP information to:
+•	Identify devices using specific IP addresses.
+•	Investigate suspicious systems.
+•	Analyze DHCP logs.
+•	Trace devices using MAC addresses.
+•	Correlate IP addresses with endpoints during incident investigations.
+________________________________________
+Key Points to Remember
+✅ DHCP = Dynamic Host Configuration Protocol
+✅ Automatically assigns network settings.
+✅ Assigns:
+•	IP Address
+•	Subnet Mask
+•	Default Gateway
+•	DNS Server
+✅ Prevents duplicate IP addresses.
+✅ Makes network configuration automatic.
+________________________________________
+Memory Trick
+DORA
+•	D → Discover
+•	O → Offer
+•	R → Request
+•	A → Acknowledge
+Remember DORA, and you'll remember the entire DHCP process.
+________________________________________
+DHCP vs DNS (Quick Comparison)
+DHCP	DNS
+Assigns IP addresses	Converts domain names to IP addresses
+Used when a device joins a network	Used when accessing websites
+Provides network configuration	Helps locate websites and servers
+Uses the DORA process	Uses DNS resolution
+________________________________________
+NETWORKING COMMANDS
+Networking commands are used to view network information, test connectivity, troubleshoot problems, and investigate network activity.
+SOC Analysts frequently use these commands during incident investigations and troubleshooting.
+________________________________________
+Windows Networking Commands
+________________________________________
+1. ipconfig
+Definition
+ipconfig displays the current network configuration of a Windows computer.
+Purpose
+•	View IP Address
+•	View Subnet Mask
+•	View Default Gateway
+•	View DNS Server
+Command
+ipconfig
+Example Output
+IPv4 Address : 192.168.1.25
+Subnet Mask : 255.255.255.0
+Default Gateway : 192.168.1.1
+Used For
+•	Checking IP configuration
+•	Troubleshooting network issues
+•	Verifying network settings
+________________________________________
+2. ping
+Definition
+ping checks whether another device or website is reachable.
+It measures connectivity between two devices.
+Command
+ping google.com
+Example Output
+Reply from 142.xxx.xxx.xxx
+Time = 18 ms
+TTL = 115
+Used For
+•	Testing Internet connectivity
+•	Checking if a host is online
+•	Measuring response time
+________________________________________
+3. tracert
+Definition
+tracert displays the path taken by packets from the source to the destination.
+Command
+tracert google.com
+Used For
+•	Identifying routing paths
+•	Troubleshooting network delays
+•	Finding where communication fails
+________________________________________
+4. nslookup
+Definition
+nslookup queries the DNS server to find the IP address of a domain name.
+Command
+nslookup google.com
+Example
+google.com
+↓
+142.xxx.xxx.xxx
+Used For
+•	DNS troubleshooting
+•	Verifying DNS records
+•	Finding website IP addresses
+________________________________________
+5. netstat
+Definition
+netstat displays active network connections and listening ports.
+Command
+netstat -an
+Used For
+•	Viewing active TCP and UDP connections
+•	Identifying open ports
+•	Detecting suspicious connections
+•	Monitoring network activity
+________________________________________
+Linux Networking Commands
+________________________________________
+1. ifconfig
+Definition
+Displays network interface configuration.
+Command
+ifconfig
+Used For
+•	Viewing IP Address
+•	Viewing network interface information
+________________________________________
+2. ip addr
+Definition
+Modern Linux command used to display network interface information.
+Command
+ip addr
+Used For
+•	Viewing IP Address
+•	Viewing MAC Address
+•	Viewing interface status
+________________________________________
+3. ping
+Command
+ping google.com
+Used For
+•	Testing connectivity
+•	Checking network availability
+________________________________________
+4. traceroute
+Definition
+Linux equivalent of tracert.
+Command
+traceroute google.com
+Used For
+•	Viewing packet route
+•	Troubleshooting routing problems
+________________________________________
+5. nslookup
+Command
+nslookup google.com
+Used For
+•	Finding the IP address of a domain
+•	DNS troubleshooting
+________________________________________
+Windows vs Linux Commands
+Windows	Linux	Purpose
+ipconfig	ifconfig / ip addr	Display network configuration
+ping	ping	Test connectivity
+tracert	traceroute	Display packet route
+nslookup	nslookup	Query DNS
+netstat	netstat	Display network connections
+________________________________________
+Why These Commands Are Important for SOC Analysts
+Command	SOC Analyst Use
+ipconfig	Identify system IP configuration
+ping	Verify if a host is reachable
+tracert	Analyze packet path and routing issues
+nslookup	Investigate domain names and DNS resolution
+netstat	Detect suspicious network connections and open ports
+________________________________________
+Practical Activity
+Run the following commands and save screenshots:
+Windows
+ipconfig
+ping google.com
+tracert google.com
+nslookup google.com
+netstat -an
+________________________________________
+Linux
+ifconfig
+ip addr
+ping google.com
+traceroute google.com
+nslookup google.com
+________________________________________
+Key Points to Remember
+✅ ipconfig → Shows network configuration.
+✅ ping → Tests connectivity.
+✅ tracert → Shows packet path.
+✅ nslookup → Converts a domain name into an IP address.
+✅ netstat → Shows active network connections.
+✅ ifconfig / ip addr → Shows Linux network configuration.
+________________________________________
+

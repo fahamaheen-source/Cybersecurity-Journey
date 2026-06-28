@@ -1,0 +1,129 @@
+WEEK 1 — DAY 2
+INTERVIEW NOTEBOOK
+________________________________________
+1. What is Networking?
+Answer:
+Networking is the process of connecting two or more devices so they can communicate and share data, resources, and services.
+________________________________________
+2. Why is Networking Important in Cybersecurity?
+Answer:
+Most cyber attacks occur through networks. Networking helps SOC Analysts monitor traffic, investigate alerts, detect malicious activity, and respond to security incidents.
+________________________________________
+3. What is the OSI Model?
+Answer:
+The OSI (Open Systems Interconnection) Model is a 7-layer reference model that explains how data is transmitted between devices over a network.
+________________________________________
+4. Name the Seven Layers of the OSI Model.
+Answer:
+1.	Physical
+2.	Data Link
+3.	Network
+4.	Transport
+5.	Session
+6.	Presentation
+7.	Application
+________________________________________
+5. Explain Layer 3 of the OSI Model.
+Answer:
+Layer 3 is the Network Layer. It is responsible for routing packets between networks using IP addresses. Routers operate at this layer.
+________________________________________
+6. Explain Layer 4 of the OSI Model.
+Answer:
+Layer 4 is the Transport Layer. It provides end-to-end communication and reliable data delivery using TCP and UDP.
+________________________________________
+7. What is the TCP/IP Model?
+Answer:
+The TCP/IP Model is a 4-layer practical networking model used by the Internet for communication between devices.
+________________________________________
+8. What is the Difference Between the OSI Model and TCP/IP Model?
+Answer:
+OSI Model	TCP/IP Model
+7 Layers	4 Layers
+Reference Model	Practical Model
+Used for learning	Used on the Internet
+More detailed	Simpler
+________________________________________
+9. What is an IP Address?
+Answer:
+An IP Address is a unique numerical address assigned to a device on a network. It allows devices to identify and communicate with each other.
+________________________________________
+10. What is the Difference Between a Public IP and a Private IP?
+Answer:
+Public IP
+•	Accessible over the Internet.
+•	Assigned by an ISP.
+•	Globally unique.
+Private IP
+•	Used inside local networks.
+•	Assigned by a router.
+•	Not directly accessible from the Internet.
+________________________________________
+11. What is Localhost?
+Answer:
+Localhost refers to the local computer and uses the loopback IP address 127.0.0.1. It is commonly used for testing applications running on the same machine.
+________________________________________
+12. What is DNS?
+Answer:
+DNS (Domain Name System) translates domain names into IP addresses, allowing users to access websites using names instead of numerical IP addresses.
+________________________________________
+13. Explain the DNS Resolution Process.
+Answer:
+1.	User enters a domain name.
+2.	Browser sends a DNS query.
+3.	DNS Resolver contacts the DNS Server.
+4.	DNS Server returns the IP address.
+5.	Browser connects to the destination using that IP address.
+________________________________________
+14. What is an A Record?
+Answer:
+An A Record (Address Record) maps a domain name to an IPv4 address.
+Example:
+google.com → 142.xxx.xxx.xxx
+________________________________________
+15. What is an MX Record?
+Answer:
+An MX (Mail Exchange) Record specifies the mail server responsible for receiving emails for a domain.
+________________________________________
+16. What is DHCP?
+Answer:
+DHCP (Dynamic Host Configuration Protocol) automatically assigns IP addresses and other network settings to devices when they join a network.
+________________________________________
+17. Why is DHCP Needed?
+Answer:
+DHCP eliminates manual IP configuration, reduces errors, prevents duplicate IP addresses, and simplifies network management.
+________________________________________
+18. Explain the DHCP Process.
+Answer:
+The DHCP process follows DORA:
+•	D – Discover
+•	O – Offer
+•	R – Request
+•	A – Acknowledge
+________________________________________
+19. What is the Purpose of the ping Command?
+Answer:
+The ping command checks whether another device or website is reachable over a network and measures response time.
+________________________________________
+20. What is the Purpose of the ipconfig Command?
+Answer:
+The ipconfig command displays the network configuration of a Windows system, including the IP address, subnet mask, default gateway, and DNS server.
+________________________________________
+21. What is the Purpose of the tracert Command?
+Answer:
+The tracert command displays the path that packets take from the source to the destination, helping troubleshoot routing issues.
+________________________________________
+22. What is the Purpose of the nslookup Command?
+Answer:
+The nslookup command queries the DNS server to find the IP address associated with a domain name.
+________________________________________
+23. What is the Purpose of the netstat Command?
+Answer:
+The netstat command displays active network connections, listening ports, and network statistics.
+________________________________________
+24. Which Networking Commands Should Every SOC Analyst Know?
+Answer:
+•	ipconfig – View network configuration.
+•	ping – Test connectivity.
+•	tracert – View packet path.
+•	nslookup – Query DNS.
+•	netstat – View active network connections.
